@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialityWrapper", "src\PartialityWrapper\PartialityWrapper.csproj", "{296403A8-A241-4E42-882D-7077A72FFBA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialityLite", "src\PartialityLite\PartialityLite.csproj", "{BA739956-F2E6-4664-9C81-12D8282F445D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{2AA3E436-440C-44E6-AF01-90A0B6048121}"
+ProjectSection(SolutionItems) = preProject
+	.gitignore = .gitignore
+	LICENSE = LICENSE
+	README.md = README.md
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{296403A8-A241-4E42-882D-7077A72FFBA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{296403A8-A241-4E42-882D-7077A72FFBA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{296403A8-A241-4E42-882D-7077A72FFBA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{296403A8-A241-4E42-882D-7077A72FFBA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA739956-F2E6-4664-9C81-12D8282F445D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA739956-F2E6-4664-9C81-12D8282F445D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA739956-F2E6-4664-9C81-12D8282F445D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA739956-F2E6-4664-9C81-12D8282F445D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

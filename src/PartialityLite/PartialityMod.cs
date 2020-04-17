@@ -1,13 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
 namespace Partiality.Modloader
 {
-    /// <summary>
-    /// A copy of the Partiality.Modloader.PartialityMod class. Included here so that the Partiality.dll reference is not needed.
-    /// </summary>
     public class PartialityMod
     {
         public string ModID = "NULL";
@@ -31,7 +23,6 @@ namespace Partiality.Modloader
         {
             if (!isEnabled)
                 return;
-
             isEnabled = false;
             OnDisable();
         }
@@ -40,7 +31,6 @@ namespace Partiality.Modloader
         {
             if (isEnabled)
                 return;
-
             isEnabled = true;
             OnEnable();
         }
